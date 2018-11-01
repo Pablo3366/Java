@@ -20,8 +20,8 @@ public class CuentaReprobados {
             try{
                 calificacion = keyb.nextInt();
 
-                if(calificacion >= 0 && calificacion < 70)
-                    reprobados++;
+                if(calificacion >= 0 && calificacion < 70){
+                    reprobados++;}
                 calificaciones++;
                 
             }catch(Exception e){
@@ -29,7 +29,7 @@ public class CuentaReprobados {
             }
         }
 
-        System.out.println("Se ignresaron " + calificaciones + " datos");
+        System.out.println("Se ingresaron " + calificaciones + " datos");
         System.out.println("Calificaciones reprobatorias: " + reprobados);
         
         if(calificaciones > 0){
