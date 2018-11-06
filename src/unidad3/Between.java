@@ -1,4 +1,4 @@
-package tareas;
+package unidad3;
 
 import java.util.Scanner;
 
