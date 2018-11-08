@@ -3,10 +3,10 @@ package unidad3;
 import java.util.Scanner;
 
 public class Between {
-    public static int capturar(){
+    public static int inputint(String message){
         Scanner in = new Scanner(System.in);
         
-        System.out.print("Ingrese un número entre el 1 y el 10 >>> ");
+        System.out.print(message);
         while(!in.hasNextInt()){
             String temp = in.next();
             System.out.print("\"" + temp + "\" no es valido, ingrese un entero >>> ");
@@ -18,7 +18,7 @@ public class Between {
         int num;
         
         do{
-            num = capturar();
+            num = inputint("Ingrese un número entre el 1 y el 10 >>> ");
         }while(rango(num, min, max));
         
         mostrar(num);
