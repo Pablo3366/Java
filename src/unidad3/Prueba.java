@@ -3,7 +3,8 @@ package unidad3;
 public class Prueba {
 
     public static void main(String[] args){
-        Fibonacci.fibonacci(10);
+        //Fibonacci.imprimirrec(50);
+        Fibonacci.fibonacci(50);
     }
     
 }
