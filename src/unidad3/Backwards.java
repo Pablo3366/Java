@@ -25,4 +25,3 @@ public class Backwards {
 Imprimir los primeros cicuenta terminos, con ciclos y métodos
 
 */
-*/
