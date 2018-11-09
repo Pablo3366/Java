@@ -24,20 +24,22 @@ public class Fibonacci {
 //        }
 //    }
     
-    public static void fibonacci(int index){
-        long c = 0;
-        String resultado = "1 > ";
+    public static String fibonacci(int index){
+        String resultado = "";
         
-        resultado += c + "\n";
-        for(long i = 1, a= 0, b = 1; i < index; i++, b = a, a = c){
+        for(long i = 1, a = 0, b = 1, c; i < index; i++, b = a, a = c){
             c=a+b;
             resultado += i+1 + " > " + c + "\n";
         }
         
-        imprimir(resultado);
+        return resultado;
     }
     
-    public static void imprimir(String out){
-        System.out.println(out);
+    public static void imprimir(){
+        String resultado = "1 > ";
+        
+        resultado += 0 + "\n";
+        
+        System.out.println(resultado + fibonacci(50));
     }
 }
