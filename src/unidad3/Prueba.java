@@ -6,10 +6,12 @@ public class Prueba {
         //Fibonacci.imprimirrec(50);
         //Fibonacci.imprimir();
         
-        Factorial.imprimir("La factorial es: ",
-                Factorial.calcular(Factorial.capturar("Ingrese numero: ")));
+        //Factorial.imprimir("La factorial es: ",
+        //        Factorial.calcular(Factorial.capturar("Ingrese numero: ")));
         
-        System.out.println(Factorial.factrec(5));
+        Range prueba = new Range();
+        prueba.calcular(40);
+        prueba.imprimir("\nLos resultados son:");
     }
     
 }

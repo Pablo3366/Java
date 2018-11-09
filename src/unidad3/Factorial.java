@@ -34,15 +34,4 @@ public class Factorial {
     public static int factrec(int index){
         return (index==0)?1:index * factrec(index -1);
     }
-    
-    /*Tarea
-    
-    Desarrollar un programcion en Jaca que determine en un conjunto de 40
-    numeros naturales (enteros positicos) capturados del teclado. 'Cuantos son
-    menores de 15, cuantos son mayores de 59 y cuantos estan comprendidos entre
-    45 y 55?. Debe ipmprimir cuantos numeros de los capturados estan dentro de
-    cada rango. Utilice metodos. Desarrolle 2 clases una de prueba y nua que
-    contenga los metodos, (capturar, clacular e imprimir
-    */
-    
 }
