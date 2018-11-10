@@ -10,7 +10,7 @@ public class Prueba {
         //        Factorial.calcular(Factorial.capturar("Ingrese numero: ")));
         
         Range prueba = new Range();
-        prueba.calcular(40);
+        prueba.calcular(40, 0);
         prueba.imprimir("\nLos resultados son:");
     }
     
