@@ -5,6 +5,6 @@ gpg -c $archivo
 
 #git rm $archivo
 rm $archivo
-#git add $archivo + ".gpg"
+#git add $archivo.gpg
 
 echo Listo!!
