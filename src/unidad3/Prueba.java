@@ -9,12 +9,17 @@ public class Prueba {
         //Factorial.imprimir("La factorial es: ",
         //        Factorial.calcular(Factorial.capturar("Ingrese numero: ")));
         
-        Range prueba = new Range();
-        prueba.calcular(40, 0);
-        prueba.imprimir("\nLos resultados son:");
+//        Range prueba = new Range();
+        //prueba.calcular(40, 0);
+        //prueba.imprimir("\nLos resultados son:");
 
 //        PagoDelAgua prueba = new PagoDelAgua();
 //        prueba.run();
+
+        CopiaF prueba = new CopiaF();
+        prueba.capturar(2);
+        prueba.calcular();
+        prueba.imprimir();
     }
     
 }
