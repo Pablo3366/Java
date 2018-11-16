@@ -1,10 +1,7 @@
-echo ingrese archivo a encriptar: 
-read archivo
-
-gpg -c $archivo
+gpg -c $1
 
 #git rm $archivo
-rm $archivo
+rm $1
 #git add $archivo.gpg
 
 echo Listo!!

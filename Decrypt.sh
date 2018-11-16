@@ -1,11 +1,3 @@
-echo Ingrese archivo a desecnriptar
+gpg -o $2 -d $1
 
-read archivo
-
-echo Ingrese nombre del nuevo archivo
-
-read new_archivo
-
-gpg -o $new_archivo -d $archivo
-
-rm $archivo
+rm $1
