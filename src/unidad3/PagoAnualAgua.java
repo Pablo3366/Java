@@ -1,5 +1,6 @@
 package unidad3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class PagoAnualAgua {
@@ -26,6 +27,7 @@ public class PagoAnualAgua {
                     mes ++;
                     if(mes >= reciboAgua.length){
                         float [] copia = new float[reciboAgua.length+1];
+                        System.out.println(Arrays.toString(copia));
                         for(int i = 0; i < reciboAgua.length; i++)
                             copia[i] = reciboAgua[i];
 
