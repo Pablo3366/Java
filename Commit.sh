@@ -6,4 +6,6 @@ git status
 
 git commit -m '"$1"'
 
-if[$2] then git push
+if $2
+	then git push
+fi
