@@ -1,12 +1,9 @@
-echo Message:
-read msg
-
 git status
 
 git add *
 
 git status
 
-git commit -m
+git commit -m '"$1"'
 
-git push
+if[$2] then git push
