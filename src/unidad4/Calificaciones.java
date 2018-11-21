@@ -28,16 +28,4 @@ public class Calificaciones {
         }
     }
 }
-/*
-Tarea
-Dar un arreglo de promedios alumnos
-y un segundo arreglo son los promedios por materia
 
-Imprimir toda la matriz con dormaato, imprimir arreglo de materias
-y alumnos, promedio por alumnos y promedios por matera
-Ademas imprimir quien fue el promedio mas alto y que materia
-obtuvo el promedio mas bajo
-
-
-Impresa para el jueves
-*/

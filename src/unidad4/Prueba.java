@@ -7,5 +7,18 @@ public class Prueba {
         float[][] calif = new float[3][4];
         float[] promAlum = new float[4];
         float[] promMat = new float[3];
+        
+        TablaMatriz.capturar(calif, nombres, materias);
+        
+        //Calcula promedios
+        TablaMatriz.avg(calif, promAlum, true);
+        TablaMatriz.avg(calif, promMat, false);
+        
+        //Imprime tabla
+        TablaMatriz.imprimir(calif, promAlum, promMat, nombres, materias);
+        
+        //Imprime mayor y menor
+        TablaMatriz.imprimir(promAlum, nombres, true);
+        TablaMatriz.imprimir(promMat, materias, false);
     }
 }
