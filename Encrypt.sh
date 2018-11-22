@@ -5,3 +5,4 @@ rm $1
 #git add $archivo.gpg
 
 echo Listo!!
+
