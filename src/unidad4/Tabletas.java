@@ -5,8 +5,7 @@ class Tablet{
     int tamañoPantalla;
     float precio;
     
-    void Tablet(String marca, String modelo, int tamaño,
-            float precio){
+    public Tablet(String marca, String modelo, int tamaño, float precio){
         setMarca(marca);
         setModelo(modelo);
         setPrecio(precio);
@@ -50,7 +49,7 @@ class Tablet{
 public class Tabletas {
 
     public static void main(String[] args) {
-        Tablet x = new Tablet();
+        Tablet x = new Tablet("Marca", "Modelo", 12, 12);
         
         x.setMarca("Sony Xperia");
         x.setModelo("X");
